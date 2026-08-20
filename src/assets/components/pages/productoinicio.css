@@ -1,0 +1,13 @@
+.resultado-busqueda,
+.resultado-vacio {
+    margin: 18px 40px;
+    color: #2c1810;
+    font-size: 16px;
+}
+
+.resultado-vacio {
+    padding: 24px;
+    background: #f7efe6;
+    border-radius: 12px;
+    text-align: center;
+}

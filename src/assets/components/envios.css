@@ -1,0 +1,46 @@
+.envios {
+    background-color: bisque;
+    padding: 24px 40px ;
+    margin: auto ;
+    border-radius: 12px;
+    border: 1px solid #e8ddd0;
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+}
+
+.detalleenvios {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 16px;
+}
+
+span:hover {
+    transform: scale(1.5);
+}
+.detalleenvios span {
+    font-size: 36px;
+    background: #943e3e;
+    padding: 12px;
+    border-radius: 50%;
+}
+
+.detalleenvios h4 {
+    margin: 0;
+    font-weight: 500;
+    font-size: 20px;
+    color: #2c1810;
+}
+
+.detalleenvios p {
+    margin: 0;
+    font-size: 12px;
+    color: #8a7060;
+}
+
+.separador {
+    width: 1px;
+    height: 50px;
+    background: #e8ddd0;
+}

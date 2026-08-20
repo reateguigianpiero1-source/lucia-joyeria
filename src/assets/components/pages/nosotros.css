@@ -1,0 +1,178 @@
+.pagina-nosotros {
+  padding: 40px;
+}
+.nosotros {
+    font-family: var(--font-sans);
+}
+
+.presentacion {
+    text-align: center;
+    padding: 60px 200px;
+    background: #fdf8f2;
+}
+
+.presentacion h1 {
+    font-size: 36px;
+    color: #2c1810;
+    letter-spacing: 3px;
+    margin-bottom: 20px;
+}
+
+.presentacion p {
+    font-size: 16px;
+    color: #8a7060;
+    line-height: 1.8;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.metodos {
+    padding: 60px 40px;
+    text-align: center;
+    background: white;
+}
+
+.metodos h2 {
+    font-size: 24px;
+    color: #2c1810;
+    letter-spacing: 3px;
+    margin-bottom: 40px;
+}
+
+.metodos-grid {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.metodo {
+    background: #fdf8f2;
+    border: 1px solid #e8ddd0;
+    border-radius: 16px;
+    padding: 30px 40px;
+    width: 200px;
+}
+
+.metodo span {
+    font-size: 40px;
+}
+
+.metodo h4 {
+    font-size: 14px;
+    color: #2c1810;
+    letter-spacing: 2px;
+    margin: 12px 0 6px 0;
+}
+
+.metodo p {
+    font-size: 12px;
+    color: #8a7060;
+    margin: 0;
+}
+
+.redes {
+    background: #2c1810;
+    padding: 50px 40px;
+    text-align: center;
+}
+
+.redes h2 {
+    color: #b8860b;
+    letter-spacing: 4px;
+    font-size: 18px;
+    margin-bottom: 24px;
+}
+
+.redes-iconos {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+
+.redes-iconos a {
+    color: #d4b896;
+    text-decoration: none;
+    font-size: 14px;
+    border: 1px solid #b8860b;
+    padding: 10px 20px;
+    border-radius: 20px;
+    transition: 0.3s;
+}
+
+.redes-iconos a:hover {
+    background: #b8860b;
+    color: white;
+}
+
+/* CONTENEDOR MISIÓN Y VISIÓN */
+.contenedor-mv {
+  width: 90%;
+  max-width: 1100px;
+  margin: 60px auto;
+  display: flex;
+  gap: 30px;
+}
+.mision {
+  flex: 1;
+  background:#d78b6b;
+  padding: 40px;
+  border-radius: 20px;
+  border: 1px solid #e8ddd0;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.mision h1 {
+  color: #2c1810;
+  font-size: 30px;
+  letter-spacing: 3px;
+  margin-bottom: 20px;
+}
+
+.mision p {
+ color: #482d22;
+  font-size: 16px;
+  line-height: 1.8;
+  text-align: justify;
+}
+
+
+/* VISIÓN */
+
+.vision {
+  flex: 1;
+  background: #d78b6b;
+  padding: 40px;
+  border-radius: 20px;
+  border: 1px solid #e8ddd0;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.vision h1 {
+  color: #2c1810;
+  font-size: 30px;
+  letter-spacing: 3px;
+  margin-bottom: 20px;
+}
+
+.vision p {
+  color: #482d22;
+  font-size: 16px;
+  line-height: 1.8;
+  text-align: justify;
+}
+
+
+/* EFECTO AL PASAR EL MOUSE */
+
+.mision,
+.vision {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.mision:hover,
+.vision:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(44, 24, 16, 0.12);
+}
